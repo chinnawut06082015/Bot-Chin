@@ -11,7 +11,7 @@
    //รับ id ของผู้ใช้
    $id = $arrayJson['events'][0]['source']['userId'];
    #ตัวอย่าง Message Type "Text + Sticker"
-   if($message == "สวัสดี"){
+   if($message == "เบอร์ติดต่อแต่ละสาขา"){
       $arrayPostData['to'] = $id;
       $arrayPostData['messages'][0]['type'] = "text";
       $arrayPostData['messages'][0]['text'] = "สวัสดีจ้าาา"."\n"."สาขาแจ้งวัฒนะ 2533"."\n"."สาขาหนองแขม 3533"."\n"."สาขาบางกอกน้อย 4533"."\n"."สาขาหนองแขม 3533";
