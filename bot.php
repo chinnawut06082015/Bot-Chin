@@ -32,5 +32,6 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '3ac88d67a3c8f207a3571
     $SendMessage->add($TextMessageBuilder);
     $Bot->replyMessage($event->getReplyToken(), $SendMessage);
   }
+}
 
 ?>
